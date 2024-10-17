@@ -1,20 +1,14 @@
 
 # Games
 
-Games is a Firefox browser extension that contains entertaining games.
+Fooble Games is a website that contains entertaining games.
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/mit/)
 
 ## Game List
 
-- TicTacToe
-- 2048
-- Sodoku
-
-## Installation
-
-Coming Soon!
+- Minesweeper
 
 ## Support
 
