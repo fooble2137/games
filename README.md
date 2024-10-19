@@ -8,6 +8,7 @@ Fooble Games is a website that contains entertaining games.
 ## Game List
 
 - [Minesweeper](https://minesweeper.fooble.dev)
+- [Connect 4](https://connect-four.fooble.dev)
 
 ## Support
 

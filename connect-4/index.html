@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="navy"/>
+    <meta name="description" content="A simple connect 4 game made with HTML, CSS and JavaScript." />
+    <meta name="keywords" content="connect 4, game, javascript, html, css" />
+    <meta name="author" content="Fooble" />
+
+    <title>Fooble Connect 4</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main id="modal-overlay">
+      <div class="infos">
+        <p>Current player: <span id="current-player">🔴</span></p>
+      </div>
+      <div id="board"></div>
+    </main>
+    <div id="modal">
+      <div class="messages">
+        <p id="modal-title"></p>
+      <p id="modal-message"></p>
+      </div>
+
+      <button class="btn" onclick="location.reload()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
