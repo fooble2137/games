@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4a752c"/>
+    <meta name="description" content="A simple minesweeper game made with HTML, CSS and JavaScript inspired by the Google Minesweeper game." />
+    <meta name="keywords" content="minesweeper, game, simple, html, css, javascript, fooble" />
+    <meta name="author" content="Fooble" />
+
+    <title>Fooble Minesweeper</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main id="modal-overlay">
+      <div class="infos">
+        <div class="dropdown">
+          <button class="dropbtn" id="dropbtn" onclick="toggleDropdown()">Easy ▾</button>
+
+          <div id="dropdown-content">
+            <a href="#" class="selected" onclick="setDifficulty(0)" id="easy">Easy</a>
+            <a href="#" onclick="setDifficulty(1)" id="normal">Normal</a>
+            <a href="#" onclick="setDifficulty(2)" id="hard">Hard</a>
+          </div>
+        </div>
+
+        <button class="btn" id="flag-btn" onclick="toggleFlag()">🚩</button>
+
+        <div class="stats">
+          <p>💣 <span id="mines-count">0</span></p>
+          <p>🚩 <span id="flags-count">0</span></p>
+        </div>
+      </div>
+      <div id="grid"></div>
+    </main>
+    <div id="modal">
+      <div class="messages">
+        <p id="modal-title"></p>
+      <p id="modal-message"></p>
+      </div>
+
+      <button class="btn" onclick="location.reload()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
