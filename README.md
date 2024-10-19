@@ -7,7 +7,7 @@ Fooble Games is a website that contains entertaining games.
 
 ## Game List
 
-- [![Minesweeper](https://github.com/fooble2137/games/blob/main/minesweeper/minesweeper.png)](https://minesweeper.fooble.dev)
+- [![Minesweeper](https://github.com/fooble2137/games/blob/main/minesweeper/favicon.ico)](https://minesweeper.fooble.dev)
 
 ## Support
 
