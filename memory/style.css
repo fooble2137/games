@@ -10,14 +10,14 @@ button {
 }
 
 .btn {
-  background: navy;
-  color: white;
+  background: #d7b899;
+  color: #303030;
   border: none;
   padding: 5px 20px;
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  border: 2px solid navy;
+  border: 2px solid #d7b899;
 }
 
 body {
@@ -45,28 +45,26 @@ main {
 }
 
 #board {
-  width: 630px;
-  height: 540px;
-  background: blue;
+  width: 500px;
+  height: 552px;
+  background: #e5c29f;
   user-select: none;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  place-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.tile {
-  height: 70px;
-  width: 70px;
-  margin: 10px;
-  background-color: white;
-  border-radius: 50%;
-  border: 5px solid navy;
+.card {
+  height: 128px;
+  width: 90px;
+  margin: 5px;
   cursor: pointer;
 }
 
 .infos {
-  background: navy;
-  width: 630px;
+  background: #d7b899;
+  width: 500px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -74,7 +72,7 @@ main {
 }
 
 .infos p {
-  color: white;
+  color: #303030;
   font-size: 20px;
 }
 
@@ -115,51 +113,25 @@ main {
   font-weight: bold;
 }
 
-@media (max-width: 630px) {
-  #board {
-    width: 490px;
-    height: 440px;
-  }
-
-  .infos {
-    width: 490px;
-  }
-
-  .tile {
-    height: 50px;
-    width: 50px;
-  }
-}
-
-@media (max-width: 490px) {
+@media (max-width: 500px) {
   #board {
     width: 100%;
-    height: 330px;
+    height: 100%;
+  }
+
+  .card {
+    height: 120px;
+    width: auto;
   }
 
   .infos {
     width: 100%;
   }
+}
 
-  .tile {
-    height: 40px;
-    width: 40px;
-    margin: 5px;
+@media (max-width: 390px) {
+  .card {
+    height: 100px;
+    width: auto;
   }
-}
-
-.red {
-  background-color: red;
-  cursor: not-allowed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.yellow {
-  background-color: yellow;
-  cursor: not-allowed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
