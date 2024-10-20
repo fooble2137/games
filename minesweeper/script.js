@@ -26,11 +26,11 @@ function startGame(difficulty) {
 
   switch (difficulty) {
     case 0:
-      minesCount = 15;
+      minesCount = 10;
       createGrid(50);
       break;
     case 1:
-      minesCount = 60;
+      minesCount = 50;
       createGrid(30);
       break;
     case 2:
