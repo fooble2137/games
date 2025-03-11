@@ -1,16 +1,12 @@
 
 # Games
 
-Fooble Games is a website that contains entertaining games.
+The JS-Files for the games on my [website](https://fooble.dev). Note that the code is heavily based on util function on my website (for example `openModal()`), that are not included in this repository but with a little bit of work you can make it work for your project.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/mit/) ![Version2](https://img.shields.io/badge/Version-2.0-blue.svg)
 
 ## Game List
 
-- [Minesweeper](https://minesweeper.fooble.dev)
-- [Connect 4](https://connect-four.fooble.dev)
-- [Memory](https://memory.fooble.dev)
-
-## Support
-
-For support, email [contact@fooble.dev](mailto:contact@fooble.dev).
+- Minesweeper
+- Connect 4
+- Memory
