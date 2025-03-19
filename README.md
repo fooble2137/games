@@ -8,5 +8,5 @@ The JS-Files for the games on my [website](https://fooble.dev). Note that the co
 ## Game List
 
 - Minesweeper
-- Connect 4
-- Memory
+- Four in a Row
+- Shapes
