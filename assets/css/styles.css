@@ -1,0 +1,91 @@
+:root {
+  /* Red */
+  --red-100: #ffe3e3;
+  --red-200: #ffcaca;
+  --red-300: #ffb5b5;
+  --red-400: #ff9c9c;
+  --red-500: #ff8585; /* main */
+  --red-600: #e56f6f;
+  --red-700: #cc5a5a;
+  --red-800: #b34545;
+
+  /* Orange */
+  --orange-100: #fff1dc;
+  --orange-200: #ffe7c2;
+  --orange-300: #ffdaa6;
+  --orange-400: #ffc78a;
+  --orange-500: #ffb96b; /* main */
+  --orange-600: #e6a65f;
+  --orange-700: #cc924f;
+  --orange-800: #b37e42;
+
+  /* Yellow */
+  --yellow-100: #ffffe3;
+  --yellow-200: #ffffcc;
+  --yellow-300: #fdffb6; /* main */
+  --yellow-400: #f4f799;
+  --yellow-500: #ecef7e;
+  --yellow-600: #d4d768;
+  --yellow-700: #bcbc52;
+  --yellow-800: #a3a33f;
+
+  /* Green */
+  --green-100: #efffe9;
+  --green-200: #dfffda;
+  --green-300: #caFFbf; /* main */
+  --green-400: #b0f5a2;
+  --green-500: #97ea86;
+  --green-600: #7fd070;
+  --green-700: #69b75b;
+  --green-800: #549e47;
+
+  /* Cyan */
+  --cyan-100: #e6fcff;
+  --cyan-200: #ccf9ff;
+  --cyan-300: #b3f7ff;
+  --cyan-400: #9bf6ff; /* main */
+  --cyan-500: #7de2eb;
+  --cyan-600: #63c8d1;
+  --cyan-700: #4daeb7;
+  --cyan-800: #38949d;
+
+  /* Blue */
+  --blue-100: #e4edff;
+  --blue-200: #cbddff;
+  --blue-300: #b2ccff;
+  --blue-400: #99bbff;
+  --blue-500: #80aaff; /* main */
+  --blue-600: #6692e6;
+  --blue-700: #4d7acc;
+  --blue-800: #3362b3;
+
+  /* Purple */
+  --purple-100: #f2efff;
+  --purple-200: #e0daff;
+  --purple-300: #cec5ff;
+  --purple-400: #bdb2ff; /* main */
+  --purple-500: #a394f5;
+  --purple-600: #897bdc;
+  --purple-700: #7063c3;
+  --purple-800: #574baa;
+
+  /* Pink */
+  --pink-100: #ffeaff;
+  --pink-200: #ffd7ff;
+  --pink-300: #ffc6ff; /* main */
+  --pink-400: #f7acf7;
+  --pink-500: #ee93ee;
+  --pink-600: #d67cd6;
+  --pink-700: #be65be;
+  --pink-800: #a54ea5;
+
+  /* White */
+  --neutral-100: #ffffff;
+  --neutral-200: #fffffd;
+  --neutral-300: #fffffc; /* main */
+  --neutral-400: #f9f9f7;
+  --neutral-500: #f0f0ef;
+  --neutral-600: #d9d9d7;
+  --neutral-700: #bfbfbd;
+  --neutral-800: #a6a6a4;
+}
