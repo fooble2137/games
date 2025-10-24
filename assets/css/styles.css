@@ -104,6 +104,7 @@ body {
 /* Buttons */
 .btn {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   gap: 0.5rem;
   transition: filter 0.2s ease-in-out;
@@ -140,4 +141,89 @@ body {
 .btn.green {
   background-color: var(--green-200);
   color: var(--green-800);
+}
+
+/* Games */
+#games {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#games header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#games header img {
+  width: 150px;
+  height: auto;
+}
+
+#games header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#games main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#games .game {
+  border: 1px solid var(--neutral-500);
+  border-radius: 0.5rem;
+  background-color: var(--neutral-100);
+  padding: 1rem;
+  text-align: center;
+}
+
+#games .game img {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+#games .game .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#games .game .content h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#games .game .content p {
+  flex-grow: 1;
+  height: 6rem;
+  color: var(--foreground);
+  font-size: 1rem;
+}
+
+#games .game .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#games .game .tags .tag {
+  border: 1px solid var(--neutral-500);
+  border-radius: 0.5rem;
+  background-color: var(--neutral-300);
+  padding: 0.25rem 0.5rem;
+  color: var(--foreground);
+  font-size: 0.875rem;
 }
