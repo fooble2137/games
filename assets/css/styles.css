@@ -220,6 +220,9 @@ body {
 }
 
 #games .game .tags .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
   border: 1px solid var(--neutral-500);
   border-radius: 0.5rem;
   background-color: var(--neutral-300);
